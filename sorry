@@ -1,0 +1,46 @@
+image(img, 0, 0, 640, 420);
+    fill("#00008B");
+    text("Bed", 60, 75);
+    noFill();
+    stroke("#00008B");
+    rect(50, 60, 550, 350);
+
+    image(img, 0, 0, 640, 420);
+    fill("#00008B");
+    text("Table", 60, 75);
+    noFill();
+    stroke("#00008B");
+    rect(50, 60, 550, 350);
+
+    fill("#00008B");
+    text("Computer", 210, 145);
+    noFill();
+    stroke("#00008B");
+    rect(200, 130, 240, 220);
+
+    image(img, 0, 0, 640, 420);
+    fill("#00008B");
+    text("Room", 15, 30);
+    noFill();
+    stroke("#00008B");
+    rect(10, 10, 640, 420);
+
+    fill("#00008B");
+    text("Window", 245, 135);
+    noFill();
+    stroke("#00008B");
+    rect(240, 120, 150, 130);
+
+    function draw() {
+    image(img, 0, 0, 640, 420);
+    fill("#00008B");
+    text("Table", 60, 75);
+    noFill();
+    stroke("#00008B");
+    rect(50, 60, 550, 350);
+
+    fill("#0000FF");
+    text("Chair", 320, 120);
+    noFill();
+    stroke("#0000FF");
+    rect(300, 90, 270, 320);
